@@ -5,4 +5,4 @@
 
 # Simple-Scripts
 
-A repository containing simple scripts I have used in the past
+A repository containing simple scripts I have used in the past, I sweat so that you don't have to
