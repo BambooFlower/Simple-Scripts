@@ -8,4 +8,4 @@
 A repository containing simple scripts I have used in the past, I sweat so that you don't have to ;)
 
 - BuyMeACoffee Button: Button with link to your BuyMeACoffee page
-- NoSleep: VBS script to prevent your screen from sleeping 
+- NoSleep.vbs: Prevent your screen from sleeping 
