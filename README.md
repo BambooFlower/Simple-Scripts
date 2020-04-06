@@ -9,3 +9,4 @@ A repository containing simple scripts I have used in the past, I sweat so that 
 
 - BuyMeACoffee Button: Button with link to your BuyMeACoffee page
 - NoSleep.vbs: Prevent your screen from sleeping 
+- PlottingAnimation.m: Plotting animation template for MATLAB
