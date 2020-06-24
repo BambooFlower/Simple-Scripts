@@ -11,8 +11,10 @@ A repository containing simple scripts I have used in the past, I sweat so that 
 - Quicksort Folder: Javascript visualization of the quicksort algorithm
 - BTree.m: Create a searchable binary tree
 - BuyMeACoffee Button: Button with link to your BuyMeACoffee page
+- FadingColors.py: Fading colors animation
 - NoSleep.vbs: Prevent your screen from sleeping 
 - PlottingAnimation.m: Plotting animation template for MATLAB
+- RainbowText.py: Change the colors of the displayed letters everytime you click the screen
 - RotatingSquare.py: Animation of a rotating square using pyGame 
 - SimpleBouncing.py: Square bouncing off a wall 
 - myFactorial.m: Takes a number and calculates its factorial value
