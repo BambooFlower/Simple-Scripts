@@ -14,7 +14,6 @@ GREEN = (0 , 255 , 0)
 # initialize pygame and create screen  
 py.init()  
 screen = py.display.set_mode((WIDTH , HEIGHT))  
-# for setting FPS  
 clock = py.time.Clock()  
 
 rot = 0  
@@ -32,13 +31,14 @@ image.set_colorkey(BLACK)
 # define rect for placing the rectangle at the desired position  
 rect = image.get_rect()  
 rect.center = (WIDTH // 2 , HEIGHT // 2)  
-# keep rotating the rectangle until running is set to False  
+
+# keep rotating the rectangle rotating indefinetly
 running = True  
 while running:  
-    # set FPS  
+
     clock.tick(FPS)  
-    # clear the screen every time before drawing new objects  
     screen.fill(BLACK)  
+
     # check for the exit  
     for event in py.event.get():  
         if event.type == py.QUIT:  
@@ -46,7 +46,7 @@ while running:
 
     # making a copy of the old center of the rectangle  
     old_center = rect.center  
-    # defining angle of the rotation  
+    # defining angle of rotation  
     rot = (rot + rot_speed) % 360  
     # rotating the orignal image  
     new_image = py.transform.rotate(image_orig , rot)  
