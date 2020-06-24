@@ -18,5 +18,3 @@ A repository containing simple scripts I have used in the past, I sweat so that 
 - RotatingSquare.py: Animation of a rotating square using pyGame 
 - SimpleBouncing.py: Square bouncing off a wall 
 - myFactorial.m: Takes a number and calculates its factorial value
-- myMatrix.m: Takes a positive integer N and creates a NxN matrix with (i,j)th component given by A(i,j) = sin(1/(i+j-1))
-- myQuadratic.m: Takes 3 inputs a,b and c and computes the real roots of ax^2+bx+c
