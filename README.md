@@ -12,10 +12,10 @@ A repository containing simple scripts I have used in the past, I sweat so that 
 - BTree.m: Create a searchable binary tree
 - BuyMeACoffee Button: Button with link to your BuyMeACoffee page
 - FadingColors.py: Fading colors animation
+- Factorial.m: Takes a number and calculates its factorial value
 - NoSleep.vbs: Prevent your screen from sleeping 
 - PlottingAnimation.m: Plotting animation template for MATLAB
 - Quine.py: Exmaple of a self replicating programs (Quine)
 - RainbowText.py: Change the colors of the displayed letters everytime you click the screen
 - RotatingSquare.py: Animation of a rotating square using pyGame 
 - SimpleBouncing.py: Square bouncing off a wall 
-- myFactorial.m: Takes a number and calculates its factorial value
