@@ -15,7 +15,7 @@ A repository containing simple scripts I have used in the past, I sweat so that 
 - Factorial.m: Takes a number and calculates its factorial value
 - NoSleep.vbs: Prevent your screen from sleeping 
 - PlottingAnimation.m: Plotting animation template for MATLAB
-- Quine.py: Exmaple of a self replicating programs (Quine)
+- Quine.py: Exmaple of a self replicating program (Quine)
 - RainbowText.py: Change the colors of the displayed letters everytime you click the screen
 - RotatingSquare.py: Animation of a rotating square using pyGame 
 - SimpleBouncing.py: Square bouncing off a wall 
