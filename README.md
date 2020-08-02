@@ -7,9 +7,10 @@
 
 A repository containing simple scripts I have used in the past, I sweat so that you don't have to ;)
 
-- Bubblesort Folder: Javascript visualization of the bubblesort algorithm
-- Mouse Following Animation Folder: Javascript mouse following animation
-- Quicksort Folder: Javascript visualization of the quicksort algorithm
+- Bubblesort Folder: JavaScript visualization of the bubblesort algorithm
+- Mouse Following Animation Folder: JavaScript mouse following animation
+- Quicksort Folder: JavaScript visualization of the quicksort algorithm
+- Text Bubble Animation Folder: JavaScript simple text animation
 - BTree.m: Create a searchable binary tree
 - BuyMeACoffee Button: Button with link to your BuyMeACoffee page
 - FadingColors.py: Fading colors animation
