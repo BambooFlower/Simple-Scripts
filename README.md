@@ -11,7 +11,7 @@ A repository containing simple scripts I have used in the past, I sweat so that 
 - Mouse Following Animation Folder: JavaScript mouse following animation
 - Quicksort Folder: JavaScript visualization of the quicksort algorithm
 - Text Bubble Animation Folder: JavaScript simple text animation
-- YoutubeScrape Folder: Scrape live Youtube comments into a text file using Python's library Selenium 
+- Youtube Scraper Folder: Scrape live Youtube comments into a text file using Python's library Selenium 
 - BTree.m: Create a searchable binary tree
 - BuyMeACoffee Button: Button with link to your BuyMeACoffee page
 - FadingColors.py: Fading colors animation
