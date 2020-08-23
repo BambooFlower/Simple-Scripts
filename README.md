@@ -10,6 +10,7 @@ A repository containing simple scripts I have used in the past, I sweat so that 
 - Bubblesort Folder: JavaScript visualization of the bubblesort algorithm
 - Mouse Following Animation Folder: JavaScript mouse following animation
 - Quicksort Folder: JavaScript visualization of the quicksort algorithm
+- YoutubeScrape Folder: Scrape live Youtube comments into a text file using Python's library Selenium 
 - Text Bubble Animation Folder: JavaScript simple text animation
 - BTree.m: Create a searchable binary tree
 - BuyMeACoffee Button: Button with link to your BuyMeACoffee page
