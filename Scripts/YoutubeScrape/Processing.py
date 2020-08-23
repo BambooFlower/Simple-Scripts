@@ -9,7 +9,7 @@ import json
 import os.path
 
 
-def test(driver):
+def test(driver,filename='test'):
     while 1:
         # Access requests via the `requests` attribute
         c = 0
@@ -20,11 +20,26 @@ def test(driver):
                     r = request
     #                print(c)
                     if not r.response is None:
-                        parse_response(r.response.body)
+                        parse_response(r.response.body,filename=filename)
+                elif 'https://www.youtube.com/youtubei/v1/updated_metadata' in request.url:
+                    # Get number of views
+                    r = request
+                    if not r.response is None:
+                        get_view_count(r.response.body,filename=filename)
         if c > 0:
             del driver.requests
         time.sleep(5)
-        
+
+def get_view_count(data,filename='test'):
+    json_data = json.loads(data)
+    c1 = json_data['actions'][0]['updateViewershipAction']['viewCount']
+    c2 = c1['videoViewCountRenderer']['viewCount']['runs'][0]
+    text = c2['text'].replace(' watching now','').replace(',','')
+    
+    print('people watching={}'.format(text))
+    
+    write_file('{}views.txt'.format(filename),{'views':text,'time':str(time.time())})
+
 def write_file(filename,data):
     if not os.path.exists(filename):
         with open(filename,'w',encoding='utf-8') as f:
@@ -43,10 +58,8 @@ def write_file(filename,data):
             line +=  "\n"
             f.write(line)
 
-def parse_response(data):
+def parse_response(data,filename='test'):
     count = 0
-    
-    values = []
     
     json_data = json.loads(data)
     # Try to extract messages
@@ -235,6 +248,15 @@ def parse_response(data):
 #            print("\n\n")
 #            print(c2)
 #            print(c1.keys())
+        elif 'liveChatTickerPaidStickerItemRenderer' in c1.keys():
+            c2 = c1['liveChatTickerPaidStickerItemRenderer']
+            channelId = c2['authorExternalChannelId']
+            photo = c2['authorPhoto']['thumbnails'][0]['url']
+            
+            c3 = c2['showItemEndpoint']['showLiveChatItemEndpoint']['renderer']['liveChatPaidStickerRenderer']
+            timestamp = c3['timestampUsec']
+            value = c3['purchaseAmountText']['simpleText']
+            authorName = c3['authorName']['simpleText']
         else:
             print("\n\n")
             print(c1.keys())
@@ -250,7 +272,7 @@ def parse_response(data):
                 'message':message,
                 'value':value,
                 'channelId':channelId}
-        write_file('test.txt',line)    
+        write_file('{}.txt'.format(filename),line)    
     print("block size={}".format(count))
         
             
