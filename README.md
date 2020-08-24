@@ -8,8 +8,10 @@
 A repository containing simple scripts I have used in the past, I sweat so that you don't have to ;)
 
 - Bubblesort Folder: JavaScript visualization of the bubblesort algorithm
+- Cube Wave Folder: JavaScript animation of a cube wave
 - Mouse Following Animation Folder: JavaScript mouse following animation
 - Quicksort Folder: JavaScript visualization of the quicksort algorithm
+- Rubik's Cube Visualization Folder: JavaScript Visualization of a Rubik's cube 
 - Text Bubble Animation Folder: JavaScript simple text animation
 - Youtube Scraper Folder: Scrape live Youtube comments into a text file using Python's library Selenium 
 - BTree.m: Create a searchable binary tree
