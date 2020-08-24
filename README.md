@@ -12,6 +12,7 @@ A repository containing simple scripts I have used in the past, I sweat so that 
 - Mouse Following Animation Folder: JavaScript mouse following animation
 - Quicksort Folder: JavaScript visualization of the quicksort algorithm
 - Rubik's Cube Visualization Folder: JavaScript Visualization of a Rubik's cube 
+- RubikCubeSolver Folder: Java (Proessing) Rubik's cube solver
 - Text Bubble Animation Folder: JavaScript simple text animation
 - Youtube Scraper Folder: Scrape live Youtube comments into a text file using Python's library Selenium 
 
