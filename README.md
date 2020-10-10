@@ -14,7 +14,8 @@ A repository containing simple scripts I have used in the past, I sweat so that 
 - Rubik's Cube Visualization Folder: JavaScript Visualization of a Rubik's cube 
 - RubikCubeSolver Folder: Java (Proessing) Rubik's cube solver
 - Text Bubble Animation Folder: JavaScript simple text animation
-- Youtube Scraper Folder: Scrape live Youtube comments into a text file using Python's library Selenium 
+- Youtube Scraper Folder: Python Youtube's live videos comments scraper 
+- Zyngapoker Bot Folder: Python interface for Zynga poker
 
 <br/><br/>
 - BTree.m: Create a searchable binary tree
