@@ -6,7 +6,8 @@
 # Simple-Scripts
 
 A repository containing simple scripts I have used in the past, I sweat so that you don't have to ;)
-
+- 2D Raycasting Folder: JavaScript visualization of 2D ray casting
+- Attraction-Repulsion Forces Folder: JavaScript visualization of attraction-repulsion forces
 - Bubblesort Folder: JavaScript visualization of the bubblesort algorithm
 - Cube Wave Folder: JavaScript animation of a cube wave
 - Mouse Following Animation Folder: JavaScript mouse following animation
@@ -20,6 +21,7 @@ A repository containing simple scripts I have used in the past, I sweat so that 
 <br/><br/>
 - BTree.m: Create a searchable binary tree
 - BuyMeACoffee Button: Button with link to your BuyMeACoffee page
+- Donut.cpp: Donut shpaed code that produces a 3D rotating donut
 - FadingColors.py: Fading colors animation
 - Factorial.m: Takes a number and calculates its factorial value
 - NoSleep.vbs: Prevent your screen from sleeping 
