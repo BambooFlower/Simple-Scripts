@@ -30,3 +30,6 @@ A repository containing simple scripts I have used in the past, I sweat so that 
 - RainbowText.py: Change the colors of the displayed letters everytime you click the screen
 - RotatingSquare.py: Animation of a rotating square using pyGame 
 - SimpleBouncing.py: Animation of a square bouncing off a wall using pyGame
+- Streamlines.m: Streamline plot template for MATLAB
+- TwoWaves.m: Plot of two orthogonal waves 
+- Wind.m: Wind streamline plot
