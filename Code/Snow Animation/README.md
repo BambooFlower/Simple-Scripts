@@ -1,6 +1,6 @@
 # snow
 Generate snow fall animation.
-[](screenshot.jpg)
+()[screenshot.jpg]
 
 ## Python
 Python animation uses pygame, and "simulates" the snow fall by moving each particles through the vector field. Code can be run with 
