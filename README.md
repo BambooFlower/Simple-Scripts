@@ -14,6 +14,7 @@ A repository containing simple scripts I have used in the past, I sweat so that 
 - Quicksort Folder: JavaScript visualization of the quicksort algorithm
 - Rubik's Cube Visualization Folder: JavaScript Visualization of a Rubik's cube 
 - RubikCubeSolver Folder: Java (Proessing) Rubik's cube solver
+- SnowAnimation Folder: Pyhton & C++ implementation of a snow animation
 - Text Bubble Animation Folder: JavaScript simple text animation
 - Youtube Scraper Folder: Python Youtube's live videos comments scraper 
 - Zyngapoker Bot Folder: Python interface for Zynga poker
