@@ -22,7 +22,7 @@ A repository containing simple scripts I have used in the past, I sweat so that 
 <br/><br/>
 - BTree.m: Create a searchable binary tree
 - BuyMeACoffee Button: Button with link to your BuyMeACoffee page
-- Donut.cpp: Donut shpaed code that produces a 3D rotating donut
+- Donut.cpp: Donut shaped code that produces a 3D rotating donut
 - FadingColors.py: Fading colors animation
 - Factorial.m: Takes a number and calculates its factorial value
 - NoSleep.vbs: Prevent your screen from sleeping 
