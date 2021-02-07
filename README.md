@@ -20,6 +20,7 @@ A repository containing simple scripts I have used in the past, I sweat so that 
 - Zyngapoker Bot Folder: Python interface for Zynga poker
 
 <br/><br/>
+- Average.f95: Compute the average using dynamic memory allocation 
 - BTree.m: Create a searchable binary tree
 - BuyMeACoffee Button: Button with link to your BuyMeACoffee page
 - Donut.cpp: Donut shaped code that produces a 3D rotating donut
