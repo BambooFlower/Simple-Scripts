@@ -20,7 +20,6 @@ A repository containing simple scripts I have used in the past, I sweat so that 
 - Average.f95: Compute the average using dynamic memory allocation 
 - BTree.m: Create a searchable binary tree
 - BinomialCoefficient.m: Compute the binomial coefficient 
-- BuyMeACoffee Button: Button with link to your BuyMeACoffee page
 - Donut.cpp: Donut shaped code that produces a 3D rotating donut
 - Factorial.m: Takes a number and calculates its factorial value
 - FadingColors.py: Fading colors animation
